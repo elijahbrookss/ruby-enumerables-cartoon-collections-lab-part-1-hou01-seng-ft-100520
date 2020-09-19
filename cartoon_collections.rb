@@ -5,7 +5,7 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-  array.each{|element, value| p element.to_s + " "+value}
+  array.each{|element| p element + " "+ array[element]}
 end
 
 list_dwarves(["Gimli", "Thorin", "Balin", "Gloin"])
