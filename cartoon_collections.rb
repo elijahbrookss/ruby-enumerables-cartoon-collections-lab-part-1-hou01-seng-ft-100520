@@ -8,4 +8,4 @@ def list_dwarves(array)
   array.each{|element, value| p element.to_s + " "+value}
 end
 
-list_dwarves()
+list_dwarves(["Gimli", "Thorin", "Balin", "Gloin"])
