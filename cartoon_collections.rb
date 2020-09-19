@@ -8,9 +8,10 @@ def list_dwarves(array)
   array.each do |element|
     count = 1
     while count < array.length do
-      p count.to_s + element
       count += 1
     end
+    p count.to_s + element
+
   end
 end
 
